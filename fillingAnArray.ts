@@ -11,7 +11,7 @@ arr(5) // => [0,1,2,3,4]
 
 // export const arr = (n: number): number[] => [ ];
 
-export const arr = (n?: number ): number[] => {
+export const arr = (n: number = 0 ): number[] => {
     
     let array: number[] = [];
     for (let index: number = 0; index < n; index++) {
